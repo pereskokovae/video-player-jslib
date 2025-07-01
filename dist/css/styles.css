@@ -1,6 +1,7 @@
 .left-buttons button{
     background-color: transparent;
     color: white;
+    font-size: large;
     border: none;
     margin: auto;
     cursor: pointer;
