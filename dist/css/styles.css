@@ -9,6 +9,11 @@
     width: 25px;
     margin-left: 3px;
 }
+
+.left-buttons{
+    padding: 7px;
+}
+
 #player{
     display: flex; 
     flex-direction: column;
