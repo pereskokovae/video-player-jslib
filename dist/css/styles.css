@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 .left-buttons button{
+=======
+.botton-controls button{
+>>>>>>> 871cf8d (added button 'For the whole screen')
     background-color: transparent;
     color: white;
     font-size: large;
@@ -25,8 +29,19 @@
     flex-grow: 600;
 }
 
-.bottom-controls{
-    width: 800px;
+.botton-controls{
     background-color: black;
-
+    flex-grow: 1;
+    padding: 7px;
+    display: flex;
 }
+
+.botton-controls .left-buttons{
+    justify-content: flex-start;
+    flex-grow: 1;
+}
+
+.botton-controls .right-buttons{
+    justify-content: flex-end;
+}
+
