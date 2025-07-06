@@ -30,7 +30,7 @@
     padding: 7px;
 }
 
-.play-button, .pause-button, .mute-button, .fullscreen-button{
+.fa{
     background-color: transparent;
     color: white;
     font-size: large;
